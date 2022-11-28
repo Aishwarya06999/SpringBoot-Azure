@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://azure-employee.database.windows.net:1433;database=AzureEmployeeDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: AzureEmployee
+    password: Testuser@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.SQLServerDialect
+      
+server:
+  port: 9191
+    
+    
+    
