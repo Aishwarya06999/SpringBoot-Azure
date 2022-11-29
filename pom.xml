@@ -14,7 +14,7 @@
 	<name>azuresql</name>
 	<description>azuresql</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>11</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
     		<maven.compiler.target>${java.version}</maven.compiler.target>
 	</properties>
@@ -38,12 +38,12 @@
 		    <artifactId>mssql-jdbc</artifactId>
 		    <scope>runtime</scope>
 		</dependency>
-<!-- 		<dependency>
+		<dependency>
 		    <groupId>org.hibernate.javax.persistence</groupId>
 		    <artifactId>hibernate-jpa-2.1-api</artifactId>
 		    <version>1.0.0.Final</version>
-		</dependency> -->
-		<dependency>
+		</dependency>
+<!-- 		<dependency>
 		    <groupId>javax.persistence</groupId>
 		    <artifactId>javax.persistence-api</artifactId>
 		    <version>2.2</version>
@@ -53,7 +53,7 @@
 		    <groupId>jakarta.persistence</groupId>
 		    <artifactId>jakarta.persistence-api</artifactId>
 		    <version>3.1.0</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
